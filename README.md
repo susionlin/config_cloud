@@ -1,1 +1,1 @@
-# springcloud_config_server
+# config_cloud
