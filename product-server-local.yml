@@ -1,5 +1,12 @@
+#服务的端口号
+server:
+  port: 9001
+  
+
 spring:
   profiles:
     active: local
+    
 debug: true
+
 test_reflush: true
