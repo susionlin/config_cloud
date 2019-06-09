@@ -1,1 +1,5 @@
-ffff
+spring:
+  profiles:
+    active:sit
+    
+debug:true
