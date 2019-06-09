@@ -1,1 +1,2 @@
-sss
+spring.profiles.active=dev
+debug=true
