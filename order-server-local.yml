@@ -2,3 +2,4 @@ spring:
   profiles:
     active: local
 debug: true
+test_reflush: true
