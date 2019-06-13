@@ -1,6 +1,6 @@
 #服务的端口号
 server:
-  port: 9003
+  port: 9001
   
 
 spring:
