@@ -9,4 +9,4 @@ spring:
     
 debug: true
 
-test_reflush: false
+test_reflush: true
