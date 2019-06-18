@@ -1,11 +1,16 @@
 #服务的端口号
 server:
   port: 9001
-  
 
 spring:
   profiles:
     active: local
+  #datasource配置
+  datasource:
+    url: jdbc:mysql://localhost:6090/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver     
     
 debug: true
 
