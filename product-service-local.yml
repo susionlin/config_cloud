@@ -10,7 +10,7 @@ spring:
     url: jdbc:mysql://localhost:6090/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: root
     password: 123456
-    driverClassName: com.mysql.jdbc.Driver     
+    driver-class-name: com.mysql.jdbc.Driver     
     
 debug: true
 
