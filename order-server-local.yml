@@ -1,4 +1,11 @@
 spring:
   profiles:
     active: local
+  #rabbitmq:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: susion
+    password: susion  
+    
 debug: true
