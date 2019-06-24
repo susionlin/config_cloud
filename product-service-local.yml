@@ -7,7 +7,7 @@ spring:
     active: local
   #datasource配置
   datasource:
-    url: jdbc:mysql://localhost:6090/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://localhost:6090/ugaoxin_db?useUnicode=true"&"characterEncoding=UTF-8"&"zeroDateTimeBehavior=convertToNull
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver     
