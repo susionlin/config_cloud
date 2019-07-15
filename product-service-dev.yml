@@ -1,4 +1,26 @@
+#服务的端口号
+server:
+  port: 9001
+
 spring:
   profiles:
     active: dev
+    
+  #datasource配置
+  datasource:
+    url: jdbc:mysql://localhost:6090/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  #rabbitmq:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: susion
+    password: susion   
+ 
+ 
+    
 debug: true
+
+test_reflush: false
