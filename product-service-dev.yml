@@ -13,7 +13,7 @@ spring:
     #password: KMB896#02
     #driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://149.129.112.244:8066/mycat_db
-    username: root
+    username: admin
     password: KMB896#02
     driver-class-name: com.mysql.jdbc.Driver
   #rabbitmq:
