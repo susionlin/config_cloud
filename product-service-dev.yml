@@ -8,7 +8,11 @@ spring:
     
   #datasource配置
   datasource:
-    url: jdbc:mysql://rm-wz9yx75264zry2u3lto.mysql.rds.aliyuncs.com:3306/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    #url: jdbc:mysql://rm-wz9yx75264zry2u3lto.mysql.rds.aliyuncs.com:3306/ugaoxin_db?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    #username: root
+    #password: KMB896#02
+    #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://149.129.112.244:8066/mycat_db
     username: root
     password: KMB896#02
     driver-class-name: com.mysql.jdbc.Driver
